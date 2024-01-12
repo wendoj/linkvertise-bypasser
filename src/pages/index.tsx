@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     e.preventDefault();
 
     fetch(
-      "https://bypass.bot.nu/bypass2?url=" +
+      "https://bypass.pm/bypass2?url=" +
         (document.getElementById("url") as HTMLInputElement)!.value
     )
       .then((res) => res.json())
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
             <p className="mt-1 text-[0.6rem] opacity-50 text-center">
               Made by{"  "}
               <span className="text-[#6b6ecc]">
-                <strong>WendoJ#9239 | 591702761972695041</strong>
+                <strong>wendoj</strong>
               </span>
             </p>
           </form>
